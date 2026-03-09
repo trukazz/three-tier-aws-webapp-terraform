@@ -1,7 +1,6 @@
-# A Three‑Tier Highly Available AWS Web Application with Terraform
+# Scalable Three-Tier AWS Cloud Architecture with Terraform
 
-This project deploys a production‑style, highly available web application on AWS using Terraform.
-It includes:
+This project uses modular Terraform to build a reliable, three-tier setup on AWS. It creates a professional environment that stays online even if one data centre fails (Multi-AZ). I focused on network safety by separating the layers into public and private areas and used AWS Secrets Manager to make sure database passwords are never hard-coded or leaked in logs:
 
   * A custom VPC
   
