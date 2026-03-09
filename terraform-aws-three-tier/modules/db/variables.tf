@@ -8,6 +8,7 @@ variable "db_username" {
 
 variable "db_password" {
   type = string
+  sensitive = true
 }
 
 variable "private_subnet_ids" {
@@ -21,3 +22,4 @@ variable "vpc_id" {
 variable "sg_ids" {
   type = list(string)
 }
+
