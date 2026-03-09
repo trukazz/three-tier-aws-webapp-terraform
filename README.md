@@ -179,7 +179,7 @@ Fixing this taught me how real AWS debugging works and gave me confidence in tro
    terraform destroy
    ```
 # 📝 Project Overview
-This project deploys a highly available web application on AWS using Terraform. It follows real-world cloud architecture patterns, including a multi‑AZ VPC, public and private subnets, an Application Load Balancer, an Auto Scaling Group with a Launch Template, and a private RDS MySQL database. The goal is to demonstrate production‑grade infrastructure design, modular Terraform structure, and hands‑on cloud engineering skills.
+This project deploys a highly available web application on AWS using Terraform. It follows real-world cloud architecture patterns, including a multi‑AZ VPC, public/private subnet isolation, and an Application Load Balancer. To ensure production-grade security, I integrated AWS Secrets Manager for credential management and implemented Terraform sensitive variable masking to prevent data leaks in deployment logs. The goal is to demonstrate secure, modular infrastructure design and hands‑on cloud engineering skills.
 
 # 📚 Future Improvements
 
